@@ -1,0 +1,189 @@
+@keyframes animatedFrank{
+    from{
+        opacity:0;
+        transform:translateY(150px); 
+    }
+    to{
+        opacity:1;
+        transform:translateY(0); 
+    }
+}
+
+@keyframes zeshora{
+    from{
+        opacity:0;
+        transform:translateY(-150px); 
+    }
+    to{
+        opacity:1;
+        transform:translateY(0); 
+    }
+}
+@keyframes zesdola{
+    from{
+        opacity:0;
+        transform:translateY(150px); 
+    }
+    to{
+        opacity:1;
+        transform:translateY(0); 
+    }
+}
+
+@keyframes drogon{
+    from{
+        opacity:0;
+        transform:translate(-100%, 150px);
+        
+    }
+    to{
+        opacity:1;
+        transform:translate(0%, 0%);
+    }
+}
+//////////////////////////
+
+
+
+@keyframes animationOfAppearing{
+    from{
+        opacity:0;
+        transform:translateY(100px);
+        box-shadow:0; 
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+        box-shadow: 1px 43px 102px -47px rgba(0,0,0,0.75);
+    }
+}
+
+
+
+//////////////////////////////////////////
+@keyframes animaceProItemy{
+    0%{
+        transform:translateX(0px);
+    }
+    10%{
+        transform:translateX(10px);
+    }
+    20%{
+        
+        transform:translateX(-10px);
+    }
+    30%{
+        transform:translateX(10px);
+    }
+    40%{
+        transform:translateX(-10px);
+    }
+    50%{
+        transform:translateX(10px);
+    }
+    60%{
+        transform:translateX(-10px);
+    }
+    70%{
+        transform:translateX(10px);
+    }
+    80%{
+        transform:translateX(-10px);
+    }
+    90%{
+        transform:translateX(10px);
+    }
+    100%{
+        transform:translateX(0px);
+    }
+}
+
+///////////////////////////////////////
+
+
+
+@keyframes section5TextAnimation{
+    from{
+        opacity:0;
+        transform:translateX(200px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+////////////////////////////////////
+@keyframes zoom{
+    from{
+        transform:scale(0);
+
+    }
+    to{
+        transform:scale(1)
+    }
+}
+////////////////////////////////////
+@keyframes soupniShoverem{
+    from{
+        opacity:0;
+        bottom:0;
+    }
+    to{
+        opacity:1;
+        top:50%;
+    }
+}
+@keyframes section04Items {
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+@keyframes section07Items {
+    from{
+        opacity:0;
+        transform:translateY(70px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes animationOfAppearing{
+    from{
+        opacity:0;
+        transform:translateY(100px);
+        box-shadow:0; 
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+        box-shadow: 1px 43px 102px -47px rgba(0,0,0,0.75);
+    }
+}
+@keyframes navbarItems{
+    from{
+        opacity:0;
+        transform:translateX(100px);
+    }
+    to{
+        opacity:1;
+        transform:translate(0px);
+    }
+}
+.section03{
+
+    p{
+        font-size: 1.8rem;
+    }
+}
+
+body{
+    color: blue;
+}
